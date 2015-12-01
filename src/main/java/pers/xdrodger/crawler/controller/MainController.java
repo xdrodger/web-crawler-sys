@@ -16,6 +16,7 @@ public class MainController {
 //		URL url = ClassLoader.getSystemResource("log4j.properties");
 //		url.getPath();
 //		Properties log4
+		// my test
 		PropertyConfigurator.configure(ClassLoader.getSystemResource("log4j.properties"));
 		logger.info("test");
 	}
