@@ -18,6 +18,7 @@ public class MainController {
 //		Properties log4
 		// my test
 		// 
+		
 		//sdf
 		PropertyConfigurator.configure(ClassLoader.getSystemResource("log4j.properties"));
 		logger.info("test");
